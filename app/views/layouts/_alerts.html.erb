@@ -1,0 +1,8 @@
+<% friend.errors.each do |error| %>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong><%= error.full_message %></strong>
+        <button type="button" class="btn-close" data-bs-dimiss="alert" aria-label="Close"></button>
+    </div>
+<% end %>
+
+
